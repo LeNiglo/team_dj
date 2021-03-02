@@ -1,0 +1,18 @@
+header.tdjHeader {
+    padding: .5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #33333399;
+    height: 3em;
+}
+
+a.tdjLogo {
+    text-decoration: none;
+}
+
+.tdjLogo > img {
+    height: 100%;
+    width: auto;
+}
