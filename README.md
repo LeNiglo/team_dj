@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ZIR PLAY
 
-## Getting Started
+Collaborative club designed to animate music
 
-First, run the development server:
+## Hosting
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+At first, the project will be hosted on @LeNiglo's personnal server and exposed on dj.lefrantguillaume.com
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pricing
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+At first, free. Charge can be handled for a small use.
+May be refunded as expense report by society if used ...
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] Register / Login
+    - [ ] email / password
+    - [ ] Google
+    - [ ] Facebook
+- [ ] Rooms
+    - [ ] Possibility to create public rooms
+    - [ ] That can be private and required a invite link to join
+    - [ ] Some sort of role to be able to :
+        - [ ] invite to room
+        - [ ] kick from room
+        - [ ] eject from queue
+        - [ ] mute from chat
+    - [ ] Public room catalog with filters and tags
+- [ ] Music
+    - [ ] Able to search music on
+        - [ ] Youtube
+        - [ ] Soundcloud
+        - [ ] Spotify
+        - [ ] Deezer
+    - [ ] Able to add a music link to a playlist
+    - [ ] Possibility to manage multiple named playlists
+    - [ ] Able to open a player to all people in a room and load a music at the same time
+    - [ ] If video, display video, else if provided album cover, else a generic image
+- [ ] Queues
+    - [ ] Possibility to join/leave a room's queue
+    - [ ] Each time a song finishes, next person in queue will be the DJ
+    - [ ] Playlist are properly selected and shifted
+- [ ] Community
+    - [ ] Friend's List
+    - [ ] Possibility to add/remove someone from a room to your friendlist
+    - [ ] Public chat in each room
+    - [ ] Status of mutual friend when friendship is reciproque
+    - [ ] Private chat in direct message with mutual friends
